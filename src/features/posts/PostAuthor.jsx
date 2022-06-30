@@ -1,5 +1,6 @@
 import { useSelector } from "react-redux";
 import { selectAllUsers } from "../users/usersSlice";
+import { Link } from 'react-router-dom'
 
 const PostAuthor = ({ userId }) => {
   const users = useSelector(selectAllUsers)
@@ -8,7 +9,9 @@ const PostAuthor = ({ userId }) => {
 
   return (
     <span>
-      By {author ? author.name : 'unknown author'}
+      By {author
+        ? <Link to={`/user/${userId}`}>{author.name}</Link>
+        : 'unknown author'}
     </span>
   )
 }
