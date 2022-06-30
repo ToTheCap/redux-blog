@@ -288,10 +288,10 @@
       "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae",
       "reactions": {
         "thumbsUp": 4,
-        "wow": 1,
-        "heart": 1,
-        "rocket": 0,
-        "coffee": 5
+        "wow": 3,
+        "heart": 3,
+        "rocket": 4,
+        "coffee": 6
       }
     },
     {
@@ -302,7 +302,7 @@
       "reactions": {
         "thumbsUp": 0,
         "wow": 1,
-        "heart": 0,
+        "heart": 3,
         "rocket": 0,
         "coffee": 2
       }
@@ -317,13 +317,27 @@
       "userId": 2,
       "id": 12,
       "title": "in quibusdam tempore odit est dolorem",
-      "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio"
+      "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio",
+      "reactions": {
+        "thumbsUp": 0,
+        "wow": 0,
+        "heart": 3,
+        "rocket": 0,
+        "coffee": 0
+      }
     },
     {
       "userId": 2,
       "id": 13,
       "title": "dolorum ut in voluptas mollitia et saepe quo animi",
-      "body": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam"
+      "body": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam",
+      "reactions": {
+        "thumbsUp": 2,
+        "wow": 0,
+        "heart": 0,
+        "rocket": 0,
+        "coffee": 0
+      }
     },
     {
       "userId": 2,
@@ -335,7 +349,14 @@
       "userId": 2,
       "id": 15,
       "title": "eveniet quod temporibus",
-      "body": "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae"
+      "body": "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae",
+      "reactions": {
+        "thumbsUp": 0,
+        "wow": 0,
+        "heart": 0,
+        "rocket": 4,
+        "coffee": 0
+      }
     },
     {
       "userId": 2,
@@ -910,13 +931,41 @@
       "body": "test test",
       "userId": 4,
       "reactions": {
-        "thumbsUp": 2,
-        "wow": 3,
+        "thumbsUp": 4,
+        "wow": 5,
         "heart": 5,
         "rocket": 3,
         "coffee": 2
       },
       "date": "2022-06-30T16:01:14.703Z"
+    },
+    {
+      "title": "test post title",
+      "body": "test",
+      "userId": 4,
+      "date": "2022-06-30T16:55:13.348Z",
+      "reactions": {
+        "thumbsUp": 0,
+        "wow": 0,
+        "heart": 0,
+        "rocket": 0,
+        "coffee": 0
+      },
+      "id": 107
+    },
+    {
+      "title": "test post title",
+      "body": "test",
+      "userId": 8,
+      "date": "2022-06-30T16:55:36.769Z",
+      "reactions": {
+        "thumbsUp": 0,
+        "wow": 0,
+        "heart": 0,
+        "rocket": 0,
+        "coffee": 0
+      },
+      "id": 108
     }
   ]
 }

@@ -14,12 +14,16 @@ const PostList = () => {
 
   const orderedPostIds = useSelector(selectPostIds)
 
+
+
   let content
   if (isLoading) {
     content = <p>Loading...</p>
   }
   else if (isSuccess) {
-    content = orderedPostIds.map(postId => <PostsExcerpt key={postId} postId={postId} />)
+    content = orderedPostIds.map(postId => {
+      return <PostsExcerpt key={postId} postId={postId} />
+    })
   }
   else if (isError) {
     content = <p>{error}</p>
