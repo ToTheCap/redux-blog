@@ -1,20 +1,35 @@
 import { useSelector } from "react-redux/es/exports";
 import { selectAllUsers } from "./usersSlice";
+import { useGetUsersQuery } from "./usersSlice";
 import { Link } from 'react-router-dom'
 
 const UsersList = () => {
+  const {
+    isLoading,
+    isSuccess,
+    isError,
+    error
+  } = useGetUsersQuery()
+
   const users = useSelector(selectAllUsers)
 
-  const renderedUsers = users.map(user => (
-    <li key={user.id}>
-      <Link to={`/user/${user.id}`}>{user.name}</Link>
-    </li>
-  ))
+  let content
+  if (isLoading) {
+    content = <h2>Loading...</h2>
+  } else if (isSuccess) {
+    content = users.map(user => (
+      <li key={user.id}>
+        <Link to={`/user/${user.id}`}>{user.name}</Link>
+      </li>
+    ))
+  } else if (isError) {
+    content = <p>{error}</p>
+  }
 
   return (
     <section>
       <h2>Users</h2>
-      <ul>{renderedUsers}</ul>
+      <ul>{content}</ul>
     </section>
   )
 }

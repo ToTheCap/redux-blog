@@ -75,8 +75,10 @@ article {
   padding: 1em;
 }
 
-h1 {
+.logo {
   font-size: 3.5rem;
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 h2 {
